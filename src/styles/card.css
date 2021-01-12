@@ -1,0 +1,31 @@
+:root {
+	--honda-red: #ac1718;
+	--kawasaki-green: #6c3;
+	--yamaha-blue: #003399;
+	--suzuki-yellow: #faed27;
+}
+
+.card-btn {
+	cursor: pointer;
+	outline: none;
+	box-sizing: border-box;
+	margin: 10px;
+	border-radius: 20px;
+	width: 260px;
+	height: 150px;
+}
+
+.card-btn:hover {
+	transform: scale(1.03);
+}
+
+.card-image {
+	height: 100px;
+	width: auto;
+	border-radius: 5px;
+}
+
+figcaption {
+	color: #eee;
+	font-size: 1rem;
+}
